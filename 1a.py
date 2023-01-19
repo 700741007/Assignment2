@@ -8,11 +8,6 @@ def Full_name(fn,ln):
 Full_name(First_name, Last_name)
 
 def string_alternative(str):
-    output = ""
-    for i in range(len(str)):
-        if (i%2)==0:
-            output+=str[i]
-
-    print("String Alternative :",output)
+    print(str[::2])
 
 string_alternative(fullName)
